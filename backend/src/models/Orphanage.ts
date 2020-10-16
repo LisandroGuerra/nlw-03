@@ -5,24 +5,24 @@ export default class Orphanage {
     @PrimaryGeneratedColumn('increment')
     id: number;
 
-    @Column
+    @Column()
     name: string;
 
-    @Column
+    @Column()
     latitude: number;
 
-    @Column
+    @Column()
     longitude: number;
 
-    @Column
+    @Column()
     about: string;
 
-    @Column
+    @Column()
     instructions: string;
 
-    @Column
+    @Column()
     opening_hours: string;
-    
-    @Column
+
+    @Column()
     open_on_weekends: boolean;
-}
+};
