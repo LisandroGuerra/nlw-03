@@ -8,6 +8,7 @@ import '../styles/pages/orphanage.css';
 import Sidebar from "../components/Sidebar";
 import mapIcon from "../utils/mapIcon";
 import api from "../services/api";
+import Spinner from "react-bootstrap/esm/Spinner";
 
 
 interface Orphanage {
