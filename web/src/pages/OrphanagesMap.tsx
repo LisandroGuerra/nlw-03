@@ -49,7 +49,7 @@ function OrphanagesMap() {
                       
                      <Popup className="map-popup" closeButton={false} minWidth={240} maxWidth={240}>
                         Nome do local
-                         <Link to="">                            
+                         <Link to="/orphanages/1">                            
                              <FiArrowRight size={20} color="#ffffff" />
                          </Link>
 
@@ -64,7 +64,7 @@ function OrphanagesMap() {
               
             
 
-            <Link to="" className="create-orphanage">
+            <Link to="/orphanages/create" className="create-orphanage">
                 <FiPlus size={32} color="#ffffff" />
             </Link>
         </div>
