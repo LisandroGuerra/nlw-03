@@ -41,7 +41,11 @@ export default function Orphanage() {
   }, [params.id]);
 
   if (!orphanage) {
-    return <p>Carregando...</p>
+    return (
+      <Spinner animation="border" role="status">
+        <span className="sr-only">Carregando...</span>
+      </Spinner>
+    );
   }
 
   return (
