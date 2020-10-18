@@ -36,7 +36,7 @@ export default function Routes() {
                     name="SelectMapPosition" 
                     component={SelectMapPosition} 
                     options={{
-                        headerShown: true
+                        headerShown: true,
                         header: () => <Header title="Selecione no mapa" />
                     }}
                 />
@@ -44,7 +44,7 @@ export default function Routes() {
                     name="OrphanageData" 
                     component={OrphanageData} 
                     options={{
-                        headerShown: true
+                        headerShown: true,
                         header: () => <Header title="Informar dados" />
                     }}
                 />
