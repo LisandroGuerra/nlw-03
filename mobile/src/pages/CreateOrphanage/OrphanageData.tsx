@@ -196,7 +196,7 @@ const styles = StyleSheet.create({
 
   uploadedImagesContainer: {
       flexDirection: 'row',
-  }
+  },
 
   uploadedImage: {
       width: 64,
@@ -204,7 +204,7 @@ const styles = StyleSheet.create({
       borderRadius: 20,
       marginBottom: 32,
       marginRight: 8,
-  }
+  },
 
   imagesInput: {
     backgroundColor: 'rgba(255, 255, 255, 0.5)',
